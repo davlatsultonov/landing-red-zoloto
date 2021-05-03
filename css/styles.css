@@ -130,11 +130,13 @@ p {
     font-weight: 400;
     letter-spacing: -0.37px;
     color: #2a2928;
+    margin-bottom: 2px;
 }
 
 @media (min-width: 768px) {
     .app-call__number {
         margin-right: 10px;
+        margin-bottom: 0;
     }
 }
 
@@ -232,10 +234,9 @@ p {
     border-radius: 1px;
     position: relative;
     overflow: hidden;
-    will-change: background-color, box-shadow, border;
-    transition: background-color 300ms ease-in-out,
-                box-shadow 300ms ease-in-out,
-                border 70ms ease;
+    will-change: background-color, box-shadow;
+    transition: background-color 200ms ease-in-out,
+                box-shadow 200ms ease-in-out;
 }
 
 @media (min-width: 359px) {
