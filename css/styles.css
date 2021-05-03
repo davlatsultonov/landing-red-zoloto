@@ -211,7 +211,7 @@ p {
 
 .form__bottom {
     display: flex;
-    margin-top: 8px;
+    margin-top: 10px;
     align-items: center;
 }
 
@@ -349,6 +349,7 @@ p {
     transition: all 200ms ease-in-out;
 }
 
+/*
 .input-error .input, .input-error .input:hover {
     background-color: var(--soft-white);
 }
@@ -360,6 +361,9 @@ p {
 .input-error .input-text {
     color: #dc1414;
 }
+*/
+
+
 
 .modal-view {
     display: none;
@@ -458,6 +462,7 @@ p {
 
 .modal-view__form .error_alert {
     border: 1px solid red;
+    bottom: -.5rem;
 }
 
 /* success block */
@@ -499,7 +504,7 @@ p {
     z-index: 10;
     background-color: #fff;
     right: .5rem;
-    bottom: -.5rem;
+    bottom: -.4rem;
     padding: 3px;
     line-height: 8px;
     border-radius: 1px;
