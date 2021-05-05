@@ -36,6 +36,8 @@ p {
 }
 
 .content {
+    display: flex;
+    align-items: center;
     flex-grow: 1;
     background-color: var(--main-color);
     margin: auto;
@@ -128,7 +130,7 @@ p {
     font-size: 13px;
     line-height: 16px;
     font-weight: 400;
-    letter-spacing: -0.37px;
+    letter-spacing: -0.2px;
     color: #2a2928;
     margin-bottom: 2px;
 }
@@ -143,7 +145,7 @@ p {
 /* product-block */
 .product-block {
     min-height: 273px;
-    background: url("../images/Ring_Diamond_1@3x.svg") -26px -73px no-repeat;
+    background: url("../images/Ring_Diamond_1@3x.png") -26px -73px no-repeat;
     position: relative;
     max-width: 330px;
     margin: 0 auto;
