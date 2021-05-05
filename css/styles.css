@@ -145,22 +145,19 @@ p {
 /* product-block */
 .product-block {
     min-height: 273px;
-    background: url("../images/Ring_Diamond_1@3x.png") -26px -73px no-repeat;
+    background: url("../images/Ring_Diamond.png") no-repeat;
     position: relative;
     max-width: 330px;
     margin: 0 auto;
-}
-
-@media (min-width: 330px) {
-    .product-block {
-        background-position-x: -17px;
-    }
+    background-size: 310px;
+    background-position-x: 4px;
 }
 
 @media (min-width: 359px) {
     .product-block {
-        min-height: 243px;
-        background-position: -24px -73px;
+        min-height: 253px;
+        background-size: 319px;
+        background-position-x: 0;
     }
 }
 
