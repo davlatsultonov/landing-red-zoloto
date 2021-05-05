@@ -265,7 +265,7 @@ p {
     content: "";
     height: 9.6875rem;
     left: -4.6875rem;
-    opacity: 0.2;
+    opacity: 0.7;
     position: absolute;
     top: -50px;
     transform: rotate(
@@ -451,6 +451,10 @@ p {
     background-color: var(--main-color);
     color: #f8f6f6;
     box-shadow: 0 8px 8px rgba(230, 0, 3, 0.16), 0 0 8px rgba(230, 0, 3, 0.08);
+}
+
+.modal-view__form .form__btn:after {
+    opacity: .2;
 }
 
 .modal-view__form .form__btn:active {
